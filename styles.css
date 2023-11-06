@@ -61,6 +61,16 @@ nav > ul {
   height: 200px;
 }
 
+#title > h2{
+  margin-bottom: 20px;
+}
+
+#title input[type='email'] {
+    max-width: 275px;
+    width: 100%;
+    padding: 5px;
+}
+
 #title input[type="submit"] {
   max-width: 150px;
   width: 100%;
@@ -126,7 +136,7 @@ iframe {
   align-items: center;
   text-align: center;
   border-radius: 5px;
-  padding: 10px;
+  
   border: 1px solid black;
   margin: 10px;
   width: calc(100% / 3);
@@ -163,13 +173,42 @@ ol li {
 }
 
 .btn {
-    padding: 0 20px;
-    height: 40px;
-    font-size: 1em;
-    font-weight: 900;
-    text-transform: uppercase;
-    border: 3px black solid;
-    border-radius: 2px;
-    background: transparent;
-    cursor: pointer;
+  padding: 0 20px;
+  height: 40px;
+  font-size: 1em;
+  font-weight: 900;
+  border: 3px black solid;
+  border-radius: 2px;
+  background: transparent;
+  cursor: pointer;
+  text-align: center;
+}
+
+footer {
+  margin-top: 40px;
+  background-color: #ddd;
+  padding: 20px;
+}
+
+footer > ul {
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+}
+
+footer > ul > li {
+  padding: 0 15px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+footer > span{
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 10px;
+  color: darkgrey;
+  font-size: 0.9em;
 }
